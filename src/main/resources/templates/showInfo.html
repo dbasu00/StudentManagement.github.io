@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Table</title>
+</head>
+<body>
+	<table border="1">
+        <tr> 
+           <th>kodId</th>
+           <th>Name</th>
+           <th>Branch</th>
+         </tr>
+         <tr>
+           <td th:text="${Student.kodId}"/>
+           <td th:text="${Student.name}"/>
+           <td th:text="${Student.branch}"/>
+         </tr>
+      </table>
+</body>
+</html>
